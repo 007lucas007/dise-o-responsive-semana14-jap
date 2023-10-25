@@ -14,118 +14,170 @@
     <title>Diseño responsive - Bootstrap Semana 14</title>
   </head>
   <body>
-    <div class="navegacion">
-      <nav class="navbar navbar-expand-lg bg-body-secondary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">JAP CEIBAL</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5">
-              <li class="nav-item ms-5">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-            </form>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <div class="container info">
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="opciones align-items-center">
-            <div class="opciones-1 border rounded">
-              <a href=""><p class="m-3">Opción 1</p></a>
-            </div>
-
-            <div class="opciones-2 border rounded">
-              <a href=""><p class="m-3">Opción 2</p></a>
-            </div>
-
-            <div class="opciones-3 border rounded">
-              <a href=""><p class="m-3">Opción 3</p></a>
-            </div>
-
-            <div class="opciones-4 border rounded">
-              <a href=""><p class="m-3">Opción 4</p></a>
+    <header>
+      <div class="navegacion">
+        <nav class="navbar navbar-expand-lg bg-body-secondary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">JAP CEIBAL</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5">
+                <li class="nav-item ms-5">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Productos</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </form>
             </div>
           </div>
-        </div>
-
-        <div class="textos col-lg-9 text-bg-light d-flex">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-            perspiciatis quidem aperiam impedit dignissimos consequatur
-            exercitationem error repellat soluta
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-            perspiciatis quidem aperiam impedit dignissimos consequatur
-            exercitationem error repellat soluta n
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-            perspiciatis quidem aperiam impedit dignissimos consequatur
-            exercitationem error repellat soluta
-          </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-9 d-flex">
-            <p class="col-lg-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-              perspiciatis quidem aperiam impedit dignissimos consequatur
-              exercitationem error repellat soluta
-            </p>
-            <p class="col-lg-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-              perspiciatis quidem aperiam impedit dignissimos consequatur
-              exercitationem error repellat
-            </p>
-            <p class="col-lg-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-              perspiciatis quidem aperiam impedit dignissimos consequatur
-              exercitationem error repellat
-            </p>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container text-center mt-5 mb-5">
+        <h2 id="titulo">Lorem ipsum...</h2>
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="2000"
+        >
+          <div class="carousel-inner" id="subtitulo">
+            <div class="carousel-item active">
+              <h4>... Dolor sit amet, consectetur adipiscing elit.</h4>
+            </div>
+            <div class="carousel-item">
+              <h4>... Donec tempor at tortor sit amet molestie.</h4>
+            </div>
+            <div class="carousel-item">
+              <h4>... Aliquam vitae eros nec augue sollicitudin lobortis.</h4>
+            </div>
           </div>
-
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-            perspiciatis quidem aperiam impedit dignissimos consequatur
-            exercitationem error repellat soluta
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
-            perspiciatis quidem aperiam impedit dignissimos consequatur
-            exercitationem error repellat soluta
-          </p>
         </div>
       </div>
-    </div>
+      <div class="container info">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="opciones align-items-center">
+              <div class="opciones-1 border rounded">
+                <a class="text-dark" href=""><p class="m-3">Opción 1</p></a>
+              </div>
+
+              <div class="opciones-2 border rounded">
+                <a class="text-dark" href=""><p class="m-3">Opción 2</p></a>
+              </div>
+
+              <div class="opciones-3 border rounded">
+                <a class="text-dark" href=""><p class="m-3">Opción 3</p></a>
+              </div>
+
+              <div class="opciones-4 border rounded">
+                <a class="text-dark" href=""><p class="m-3">Opción 4</p></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-9">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <div class="col bg-light my-2">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                  quia ad laborum, illo repellat veniam maiores doloribus nisi
+                  delectus esse placeat praesentium a nam natus amet laudantium
+                  minima facilis enim?
+                </p>
+              </div>
+              <div class="col bg-light my-2">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+                  nisi nobis libero sint accusantium! Cupiditate, nihil nisi.
+                  Cumque iusto perspiciatis, maiores rerum sint non architecto
+                  eaque repellat, voluptas obcaecati repellendus.
+                </p>
+              </div>
+              <div class="col bg-light my-2">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Distinctio quidem nam eveniet blanditiis expedita numquam.
+                  Perferendis nemo officia consectetur est unde, eligendi at
+                  officiis distinctio, fugiat necessitatibus eos reprehenderit
+                  saepe.
+                </p>
+              </div>
+              <div class="col bg-light my-2">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptate, deleniti dicta adipisci sapiente debitis laborum
+                  unde deserunt vel. Assumenda, culpa ex optio ipsa qui facere
+                  cumque aliquam similique veritatis illum.
+                </p>
+              </div>
+              <div class="col bg-light my-2">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Maxime temporibus quisquam officia? Beatae harum rem at
+                  voluptatem ad deserunt nesciunt! Autem hic quae, non obcaecati
+                  repudiandae sapiente ipsum eum a?
+                </p>
+              </div>
+              <div class="col bg-light my-2">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Deserunt ducimus maiores ipsa veritatis, animi reiciendis fuga
+                  iusto cumque modi mollitia error libero eum delectus voluptate
+                  pariatur ipsum quas ad quos.
+                </p>
+              </div>
+              <div class="col bg-light my-2">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto eveniet numquam, sit atque dolorum cum saepe
+                  possimus velit cumque sunt nam libero illum vero laudantium
+                  labore necessitatibus. Aliquid, quisquam sed.
+                </p>
+              </div>
+              <div class="col bg-light my-2">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Quibusdam, iure expedita eaque quod fugit repellendus iusto!
+                  Recusandae maiores obcaecati nihil asperiores in ad molestiae,
+                  corporis, quo quaerat sunt, explicabo et?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
